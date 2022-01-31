@@ -1,24 +1,20 @@
 #include <iostream>
-using namespace std;
 
 bool isAlive = true;
-char charName[50];
+std::string charName;
 
-void introduction()
-    {
-        cout << "Please enter your character's name:\n";
+void introduction() {
+    std::cout << "Please enter your character's name:\n";
 
-        cin.getline(charName, 50);
-        cout << "Well, shit on my nipples " << charName << " and call me a gnoll, you'd better get in there and clap some goblin cheeks.\n";
-    }
+    //std::cin.getline(charName);
+    std::getline(std::cin, charName);
+    std::cout << "Well, shit on my nipples " << charName
+         << " and call me a gnoll, you'd better get in there and clap some "
+            "goblin cheeks.\n";
+}
 
-int main()
-{
+int main() {
     while (isAlive == true) {
         introduction();
-
-        
-            
-        }
-    
+    }
 }

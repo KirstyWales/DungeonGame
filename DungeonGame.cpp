@@ -9,11 +9,6 @@ int potions = 2;
 bool compass = true;
 bool diary = false;
 
-//rooms
-bool roomA1visited;
-
-
-
 
 void introduction() {
     std::cout << "Please enter your character's name:\n";
@@ -27,7 +22,7 @@ void roomA1() {
     if (roomA1visited == false) {
         std::cout << "You walk sideways down the stairs with a torch outstretched in your left hand so you can see as far into the dank dungeon as you can.\n";
     } else {
-        
+
     }
     
 

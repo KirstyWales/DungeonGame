@@ -39,7 +39,7 @@ bool roomD4Visited;
 bool roomD5Visited;
 bool roomD6Visited;
 
-void introduction() {
+std::string introduction() {
     std::cout << "Please enter your character's name:\n";
     std::getline(std::cin, charName);
     std::cout << "Well, shit on my nipples " << charName

@@ -1,4 +1,6 @@
 #include "DungeonGame.hpp"
+#include <iostream>
+#include <string>
 
 // potion variables
 int numHealthPotions = 3;

@@ -1,4 +1,6 @@
-#include DungeonGame.hpp
+#include "DungeonGame.hpp"
+#include <iostream>
+#include <string>
 
 class Room {
     public:
@@ -8,9 +10,9 @@ class Room {
         bool westExit;
         bool isVisited;
         std::string flavourText;
-}
+};
 
-
+/*
 // Has room been visited
 bool roomA1Visited;
 bool roomA2Visited;
@@ -69,3 +71,4 @@ void roomA1() {
     likeToDo();
     lineBreak();
 }
+*/

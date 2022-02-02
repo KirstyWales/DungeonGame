@@ -1,4 +1,7 @@
-#include "rooms.hpp"
+#include "DungeonGame.hpp"
+#include <iostream>
+#include <string>
+
 // item variables
 int ironArmor = 5;
 int steelArmor = 10;

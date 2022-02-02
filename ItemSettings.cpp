@@ -10,3 +10,7 @@ int ironSword = 15;
 int steelSword = 35;
 int elvenSword = 55;
 
+// potion variables
+int numHealthPotions = 3;
+int maxNumHealthPotions = 9;
+int healthPotionHealAmount = 69;

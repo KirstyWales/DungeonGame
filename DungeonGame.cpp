@@ -1,4 +1,4 @@
-#include "rooms.hpp"
+#include "DungeonGame.hpp"
 
 bool isAlive = true;
 

@@ -11,6 +11,6 @@ bool diary = false;
 int main() {
 
     while (isAlive == true) {
-        introduction();
+        corridor();
     }
 }

@@ -1,4 +1,4 @@
-#include <iostream>
+#include "rooms.hpp"
 // item variables
 int ironArmor = 5;
 int steelArmor = 10;
@@ -9,8 +9,3 @@ int elvenRing = 8;
 int ironSword = 15;
 int steelSword = 35;
 int elvenSword = 55;
-
-// potion variables
-int numHealthPotions = 3;
-int maxNumHealthPotions = 9;
-int healthPotionHealAmount = 69;

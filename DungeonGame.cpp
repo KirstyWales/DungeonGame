@@ -1,4 +1,3 @@
-#include <iostream>
 #include "rooms.hpp"
 
 bool isAlive = true;
@@ -12,5 +11,6 @@ int main() {
 
     while (isAlive == true) {
         corridor();
+        likeToDo();
     }
 }

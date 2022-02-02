@@ -1,14 +1,15 @@
-#include "rooms.hpp"
+#include DungeonGame.hpp
 
-#include <iostream>
-//Char Name
-std::string charName;
+class Room {
+    public:
+        bool northExit;
+        bool eastExit;
+        bool southExit;
+        bool westExit;
+        bool isVisited;
+        std::string flavourText;
+}
 
-// Room Exits
-bool northExit;
-bool eastExit;
-bool southExit;
-bool westExit;
 
 // Has room been visited
 bool roomA1Visited;
@@ -63,6 +64,8 @@ void roomA1() {
                  "from the stairs behind you.";
     std::cout << "\nYou shuffle forward apprehensively and notice some of the "
                  "mud is still damp and clumped together. Someone has come "
-                 "this way recently.";
+                 "this way recently.\n";
+    lineBreak();
     likeToDo();
+    lineBreak();
 }

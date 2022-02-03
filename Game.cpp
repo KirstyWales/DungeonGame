@@ -1,6 +1,5 @@
 #include "DungeonGame.hpp"
 
-
 // potion variables
 int numHealthPotions = 3;
 int maxNumHealthPotions = 9;

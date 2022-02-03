@@ -2,6 +2,6 @@
 
 int main() {
     Room entrance;
-    
+
     return 0;
 }

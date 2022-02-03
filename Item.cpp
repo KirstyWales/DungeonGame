@@ -1,6 +1,5 @@
 #include "DungeonGame.hpp"
 
-
 // item variables
 int ironArmor = 5;
 int steelArmor = 10;
@@ -11,3 +10,8 @@ int elvenRing = 8;
 int ironSword = 15;
 int steelSword = 35;
 int elvenSword = 55;
+
+// inventory
+int potions = 2;
+bool compass = true;
+bool diary = false;

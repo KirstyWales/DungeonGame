@@ -1,14 +1,13 @@
 #include "DungeonGame.hpp"
 
-
 class Room {
-    public:
-        bool northExit;
-        bool eastExit;
-        bool southExit;
-        bool westExit;
-        bool isVisited;
-        std::string flavourText;
+   public:
+    bool northExit;
+    bool eastExit;
+    bool southExit;
+    bool westExit;
+    bool isVisited;
+    std::string flavourText;
 };
 
 /*

@@ -8,5 +8,8 @@ class Room {
     bool southExit;
     bool westExit;
     bool isVisited;
-    std::string flavourText;
+    std::string roomText;
+    std::string revisitText;
+    std::string investigateText;
+
 };

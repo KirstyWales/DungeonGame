@@ -1,18 +1,17 @@
 #include "DungeonGame.hpp"
 
-
 bool isAlive = true;
 
-//inventory
+// inventory
 int potions = 2;
 bool compass = true;
 bool diary = false;
 
 int main() {
-
     while (isAlive == true) {
-        Room corridor;
-        corridor.eastExit;
+        Room entrance;
+       
+        
         likeToDo();
     }
 }

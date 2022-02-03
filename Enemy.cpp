@@ -1,4 +1,5 @@
 #include "DungeonGame.hpp"
+#include "Room.hpp"
 
 // Enemy variables
 void enemies() {

@@ -1,4 +1,5 @@
 #include "DungeonGame.hpp"
+#include "Room.hpp"
 
 // player variables
 int playerHealth;           // 100

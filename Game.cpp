@@ -1,4 +1,5 @@
 #include "DungeonGame.hpp"
+#include "Room.hpp"
 
 // potion variables
 int numHealthPotions = 3;

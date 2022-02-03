@@ -1,4 +1,5 @@
 #include "DungeonGame.hpp"
+#include "Room.hpp"
 
 // item variables
 int ironArmor = 5;

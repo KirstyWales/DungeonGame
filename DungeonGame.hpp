@@ -2,6 +2,6 @@
 #include <string>
 
 // Move function declarations here
-void corridor();
 void likeToDo();
+void Room();
 extern std::string charName;

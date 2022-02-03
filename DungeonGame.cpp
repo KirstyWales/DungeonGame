@@ -11,7 +11,8 @@ bool diary = false;
 int main() {
 
     while (isAlive == true) {
-        corridor();
+        Room corridor;
+        corridor.eastExit;
         likeToDo();
     }
 }

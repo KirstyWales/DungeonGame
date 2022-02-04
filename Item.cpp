@@ -1,6 +1,6 @@
 #include "DungeonGame.hpp"
 #include "Room.hpp"
-
+/*
 // item variables
 int ironArmor = 5;
 int steelArmor = 10;
@@ -16,3 +16,4 @@ int elvenSword = 55;
 int potions = 2;
 bool compass = true;
 bool diary = false;
+*/

@@ -1,6 +1,6 @@
 #include "DungeonGame.hpp"
 #include "Room.hpp"
-
+/*
 // Enemy variables
 void enemies() {
     std::string enemies[] = {"Troll", "Goblin", "Decomposing Knight",
@@ -8,3 +8,4 @@ void enemies() {
     int maxEnemyHealth = 100;
     int enemyAttackDamage = 25;
 }
+*/

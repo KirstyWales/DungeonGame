@@ -1,5 +1,5 @@
 #include "DungeonGame.hpp"
-
+#include "Player.hpp"
 #include "Room.hpp"
 
 bool isAlive = true;

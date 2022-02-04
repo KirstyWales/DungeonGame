@@ -1,3 +1,4 @@
+#pragma once
 #include "DungeonGame.hpp"
 #include "Room.hpp"
 

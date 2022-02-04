@@ -1,7 +1,6 @@
+#pragma once
 #include "DungeonGame.hpp"
-
 #include "Player.hpp"
-#include "Room.hpp"
 
 class Room {
    public:

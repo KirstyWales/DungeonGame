@@ -30,7 +30,7 @@ outer:
     }
 }
 
-int DungeonGame() {
+int main() {
     while (isAlive == true) {
         introduction();
     }

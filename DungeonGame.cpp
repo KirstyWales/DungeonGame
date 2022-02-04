@@ -1,4 +1,5 @@
 #include "DungeonGame.hpp"
+
 #include "Player.hpp"
 #include "Room.hpp"
 
@@ -33,8 +34,6 @@ outer:
 int DungeonGame() {
     while (isAlive == true) {
         introduction();
-
-       
     }
     return 0;
 }

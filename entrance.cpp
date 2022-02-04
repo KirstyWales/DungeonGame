@@ -1,3 +1,7 @@
+#include "DungeonGame.hpp"
+#include "Player.hpp"
+#include "Room.hpp"
+
 int entrance() {
     Room entrance;
     entrance.eastExit = true;
@@ -18,5 +22,5 @@ int entrance() {
         "animal skittering around. You also spot a half burnt, upturned "
         "bucket. There really isnt much going on here.";
 
-        return 0;
+    return 0;
 }

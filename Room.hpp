@@ -11,5 +11,4 @@ class Room {
     std::string roomText;
     std::string revisitText;
     std::string investigateText;
-
 };

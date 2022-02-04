@@ -1,3 +1,4 @@
+/*
 #include "DungeonGame.hpp"
 #include "Room.hpp"
 
@@ -11,7 +12,7 @@ class Room {
     std::string flavourText;
 };
 
-/*
+
 // Has room been visited
 bool roomA1Visited;
 bool roomA2Visited;

@@ -4,8 +4,9 @@
 
 bool isAlive = true;
 
-void introduction() {
+int introduction() {
     bool validCharName = false;
+    return 0;
 
 outer:
     while (validCharName = false) {
@@ -29,10 +30,11 @@ outer:
     }
 }
 
-int main() {
+int DungeonGame() {
     while (isAlive == true) {
         introduction();
 
-        likeToDo();
+       
     }
+    return 0;
 }

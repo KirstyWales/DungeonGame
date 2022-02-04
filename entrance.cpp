@@ -1,7 +1,7 @@
 #include "DungeonGame.hpp"
 #include "Room.hpp"
 
-int main() {
+int entrance() {
     Room entrance;
     entrance.eastExit = true;
     entrance.roomText =

@@ -1,18 +1,20 @@
 #include "DungeonGame.hpp"
 #include "Player.hpp"
 #include "Room.hpp"
+#include "Game.hpp"
 
 bool isAlive = true;
 
-int introduction() {
+void introduction() {
     bool validCharName = false;
-    return 0;
+    Player mainPlayer;
+    
 
 outer:
     while (validCharName = false) {
         std::cout << "Please enter your name\n";
-        std::cin >> charName;
-        std::cout << "The name you have entered is " << charName
+        std::cin >> mainPlayer.charName;
+        std::cout << "The name you have entered is " << mainPlayer.charName
                   << " is this correct?";
 
         char c;
